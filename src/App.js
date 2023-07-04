@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App --color-text">
       <NavBar />
-      <Header />
       <WhoIsFlexas />
       <Cards />
-      <Carousel />
       <Body />
+      <Carousel />
+      <Header />
       <Footer />
     </div>
   );

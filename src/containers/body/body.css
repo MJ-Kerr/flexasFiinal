@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.orb {
+    background-image: url("https://i.imgur.com/dxFvOZI.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(120%);
+    animation: spin 30s linear infinite;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 50%;
+}
+
+.orb-2 {
+    background-image: url("https://i.imgur.com/aO9Gb9z.png");
+    background-size: cover;
+    filter: brightness(120%);
+    animation: spin 30s linear infinite;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 50%;
+}
+
+.orb-3 {
+    background-image: url("https://i.imgur.com/NScgMc6.png");
+    background-size: cover;
+    filter: brightness(120%);
+    animation: spin 30s linear infinite;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 50%;
+}
+
+.orb-4 {
+    background-image: url("https://i.imgur.com/mmwn71o.png");
+    background-size: cover;
+    filter: brightness(120%);
+    animation: spin 30s linear infinite;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 50%;
+}
+
+.orb-5 {
+    background-image: url("https://i.imgur.com/8gJungC.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(120%);
+    animation: spin 30s linear infinite;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

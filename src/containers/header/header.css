@@ -1,0 +1,85 @@
+.header-carousel-container {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+    margin-bottom: 800px;
+}
+
+.header-carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 60s infinite forwards linear;
+}
+
+.header-carousel__face {
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    display: flex;
+}
+
+
+
+.header-carousel__face:nth-child(1) {
+    background-image: url("https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    transform: rotateY(0deg) translateZ(430px);
+}
+
+.header-carousel__face:nth-child(2) {
+    background-image: url("https://i.imgur.com/9ASm0g1.jpg");
+    transform: rotateY(40deg) translateZ(430px);
+}
+
+.header-carousel__face:nth-child(3) {
+    background-image: url("https://i.imgur.com/KvuqyEy.jpg");
+    transform: rotateY(80deg) translateZ(430px);
+}
+
+.header-carousel__face:nth-child(4) {
+    background-image: url("https://i.imgur.com/jpkviKW.jpg");
+    transform: rotateY(120deg) translateZ(430px);
+}
+
+.header-carousel__face:nth-child(5) {
+    background-image: url("https://i.imgur.com/69Bftc2.jpg");
+    transform: rotateY(160deg) translateZ(430px);
+}
+
+.header-carousel__face:nth-child(6) {
+    background-image: url("https://i.imgur.com/BloZbUk.jpg");
+    transform: rotateY(200deg) translateZ(430px);
+}
+
+.header-carousel__face:nth-child(7) {
+    background-image: url("https://i.imgur.com/DDF8OIJ.jpg");
+    transform: rotateY(240deg) translateZ(430px);
+}
+
+.header-carousel__face:nth-child(8) {
+    background-image: url("https://i.imgur.com/7HYZXo0.jpg");
+    transform: rotateY(280deg) translateZ(430px);
+}
+
+.header-carousel__face:nth-child(9) {
+    background-image: url("https://images.pexels.com/photos/1175135/pexels-photo-1175135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    transform: rotateY(320deg) translateZ(430px);
+}
+
+
+
+@keyframes rotate360 {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(-360deg);
+    }
+}

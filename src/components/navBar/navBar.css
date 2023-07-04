@@ -34,7 +34,7 @@
 
 .navbar-links_container {
     display: inline-flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 p {
@@ -43,8 +43,8 @@ p {
 
 /* this is to make everything animate on the screen */
 .scale-up-hor-center {
-    -webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: scale-up-hor-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-hor-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @-webkit-keyframes scale-up-hor-center {

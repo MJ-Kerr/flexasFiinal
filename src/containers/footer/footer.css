@@ -1,0 +1,16 @@
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.footer__container img {
+    width: 50px;
+}
+
+.footer__container a {
+    color: #3acccc;
+    font-family: 'moonhouse', sans serif;
+
+}
