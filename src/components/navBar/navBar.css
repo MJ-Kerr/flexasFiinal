@@ -1,0 +1,80 @@
+.navbar-container {
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* This is for the right side of the navbar */
+.right {
+    font-size: x-large;
+    color: #aba9aa;
+}
+
+.right:hover {
+    transform: scale(2);
+    transition: 0.5s all;
+}
+
+/* This is for the left side of the navbar */
+.left {
+    font-size: larger;
+    color: #aba9aa;
+}
+
+.left:hover {
+    transform: scale(1.25);
+    transition: 0.5s all;
+}
+
+.navbar-links {
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+.navbar-links_container {
+    display: inline-flex;
+    justify-content: end;
+}
+
+p {
+    margin: 1rem;
+}
+
+/* this is to make everything animate on the screen */
+.scale-up-hor-center {
+    -webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-hor-center {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: scaleX(0.4);
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+@keyframes scale-up-hor-center {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: scaleX(0.4);
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+
+/* this is for the hidden navbar for mobile */
+.flexas__navbar-menu {
+    display: none;
+    color: #aba9aa;
+    position: relative;
+}
