@@ -14,6 +14,7 @@ const Carousel = () => {
                 <div class="carousel__face"></div>
                 <div class="carousel__face"></div>
                 <div class="carousel__face"></div>
+                <div class="carousel__face"></div>
             </div>
         </div>
     )

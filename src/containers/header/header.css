@@ -28,7 +28,7 @@
 
 
 .header-carousel__face:nth-child(1) {
-    background-image: url("https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://i.imgur.com/PDY1Lyb.png");
     transform: rotateY(0deg) translateZ(430px);
 }
 
