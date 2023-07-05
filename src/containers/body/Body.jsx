@@ -4,13 +4,11 @@ import './body.css'
 const Body = () => {
     return (
         <div className="container">
-            <div class="orb"></div>
-            <div class="orb-1"></div>
-            <div class="orb-2"></div>
-            <div class="orb-3"></div>
-            <div class="orb-4"></div>
-            <div class="orb-5"></div>
-            <div class="orb-6"></div>
+            <a href='https://discord.gg/WY3EMjA5'><div class="orb"></div></a>
+            <a href='https://discord.gg/4TGwnrNa'><div class="orb-2"></div></a>
+            <a href='https://discord.gg/yitties'><div class="orb-3"></div></a>
+            <a href='https://discord.gg/vrgghuk6'><div class="orb-4"></div></a>
+            <a href='https://discord.gg/jX3T4FqZ'><div class="orb-5"></div></a>
         </div>
     )
 }
