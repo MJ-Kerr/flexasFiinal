@@ -5,13 +5,19 @@
     margin: 8rem;
 }
 
+.header {
+    text-align: center;
+    margin-top: 2rem;
+    color: rgba(13, 232, 15, 1);
+}
+
 .card {
     position: relative;
     width: 240px;
     height: 300px;
     color: white;
     cursor: pointer;
-    transition: 1s ease-in-out;
+    transition: 2.5s ease-in-out;
     transform-style: preserve-3d;
 }
 
@@ -33,7 +39,7 @@
 .card__face img {
     width: 240px;
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .card__face--back {

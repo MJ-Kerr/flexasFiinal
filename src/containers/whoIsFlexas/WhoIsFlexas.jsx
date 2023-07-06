@@ -31,7 +31,7 @@ const WhoIsFlexas = () => {
                 </p>
             </div>
             <div>
-                <img src="https://i.imgur.com/9ASm0g1.jpg" alt='city' className='city' />
+                <img src="https://i.imgur.com/9ASm0g1.jpg" alt='djHero' className='city' />
             </div>
         </div>
     )

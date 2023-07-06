@@ -1,6 +1,6 @@
 import React from 'react';
 import { Footer, Body, Header, WhoIsFlexas } from './containers';
-import { Cards, Carousel, NavBar } from './components';
+import { Cards, Carousel, NavBar, Mixtape } from './components';
 import './App.css';
 import './index.css';
 
@@ -9,10 +9,14 @@ function App() {
     <div className="App --color-text">
       <NavBar />
       <WhoIsFlexas />
-      <Cards />
-      <Body />
       <Carousel />
+      <br></br>
+      <Cards />
+      <br></br>
       <Header />
+      <Body />
+      <br></br>
+      <Mixtape />
       <Footer />
     </div>
   );

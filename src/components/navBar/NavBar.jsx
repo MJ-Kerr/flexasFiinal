@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import React from 'react'
+// import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navBar.css';
 
 const NavBar = () => {
     //this is the code for the toggle menu working
-    const [toggleMenu, setToggleMenu] = useState(false);
+    // const [toggleMenu, setToggleMenu] = useState(false);
     return (
         <div className='navbar-container gradient__bg' id="navBar">
             <p className='scale-up-hor-center'>
