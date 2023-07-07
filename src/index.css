@@ -1,13 +1,15 @@
-@import url('https://fonts.cdnfonts.com/css/riky-vampdator-normal');
 @import url('https://fonts.cdnfonts.com/css/moonhouse');
-@import url('https://fonts.cdnfonts.com/css/neurotoxin');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 
 
 :root {
-  font-family: 'Riky Vampdator Normal', sans-serif;
+  font-family: 'Bruno Ace', cursive;
   font-family: 'moonhouse', sans-serif;
-  font-family: 'Neurotoxin', sans-serif;
 }
+
+
 
 a {
   color: unset;
