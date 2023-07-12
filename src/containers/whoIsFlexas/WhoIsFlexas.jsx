@@ -1,9 +1,12 @@
 import React from 'react'
 import './whoIsFlexas.css'
+import { useMediaQuery } from 'react-responsive';
 
 const WhoIsFlexas = () => {
+    const isMobile = useMediaQuery({ maxWidth: 900 });
+
     return (
-        <div className='container Row' id='wtif'>
+        <div className={`container Row ${isMobile ? 'mobile' : ''}`} id='wtif'>
             <div className='about'>
                 <img src='https://i.imgur.com/cIMpNHV.png' alt='flexas' className='logo  pulsate-bck' />
                 <p>

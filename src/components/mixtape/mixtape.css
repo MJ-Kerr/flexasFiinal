@@ -1,7 +1,26 @@
 .container {
     margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .mixtape {
     margin-top: 8rem;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 10rem;
+    margin-right: 3rem;
+    padding: 2rem;
+}
+
+@media (min-width: 789px) {
+    .container {
+        flex-wrap: nowrap;
+    }
+
+    .mixtape {
+        display: inline-block;
+        width: 50%;
+    }
 }

@@ -1,21 +1,17 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
   padding: 0%;
   margin: 0%;
   scroll-behavior: smooth;
 }
 
 body {
-  background: black
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  background: black;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* Center align the content horizontally */
+  /* align-items: center; */
+  /* Center align the content vertically */
+  /* min-height: 100vh; */
+  /* Ensure the body takes up at least the full viewport height */
 }

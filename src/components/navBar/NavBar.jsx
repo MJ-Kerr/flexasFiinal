@@ -1,12 +1,16 @@
 import React from 'react'
 // import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navBar.css';
+import { useMediaQuery } from 'react-responsive';
+
+
 
 const NavBar = () => {
+    const isMobile = useMediaQuery({ maxWidth: 789 });
     //this is the code for the toggle menu working
     // const [toggleMenu, setToggleMenu] = useState(false);
     return (
-        <div className='navbar-container gradient__bg' id="navBar">
+        <div className={`navbar-container gradient__bg ${isMobile ? 'mobile' : ''}`} id="navBar">
             <p className='scale-up-hor-center'>
                 <a className='right ' href='#wtif'>🎧 DJ FLEXAS</a>
             </p>

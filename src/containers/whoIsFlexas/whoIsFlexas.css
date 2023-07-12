@@ -1,8 +1,8 @@
 .Row {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: flex-start;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     text-align: center;
     /* margin-top: 1rem; */
 }
@@ -14,20 +14,31 @@ img {
 .about {
     text-align: center;
     color: #ababaa;
-    padding-bottom: 2rem;
     font-family: 'Bruno Ace', cursive;
 }
+
+
 
 .logo {
     max-width: 720px;
     height: 500px;
+
 }
 
 .city {
     margin-right: 2rem;
     margin-top: 17rem;
+    margin-left: 3rem;
     box-shadow: 0 7px 50px 10px rgba(13, 232, 15, 1);
     border: 1px solid #ffffff22
+}
+
+@media only screen and (max-width: 900px) {
+
+    /* Adjust the breakpoint as needed */
+    .city {
+        display: none;
+    }
 }
 
 /* this is the pulse for the logo */

@@ -1,11 +1,15 @@
 import React from 'react'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
+import { useMediaQuery } from 'react-responsive';
+
 
 import './card.css';
 const Card = () => {
+    const isMobile = useMediaQuery({ maxWidth: 900 });
+
     return (
-        <div id='streams'>
+        <div className={`card-container ${isMobile ? 'mobile' : ''} ${isMobile ? 'two-columns' : ''}`} id='streams'>
             <h1 className='header flicker-1'>Event Fliers</h1>
             <div class="scene">
                 <div class="card">

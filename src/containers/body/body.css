@@ -167,3 +167,15 @@
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 789px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .orb {
+        margin-bottom: 2rem;
+    }
+}

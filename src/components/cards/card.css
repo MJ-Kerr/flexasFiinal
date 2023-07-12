@@ -5,6 +5,14 @@
     margin: 8rem;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 8rem;
+}
+
 .header {
     text-align: center;
     margin-top: 2rem;
@@ -20,6 +28,7 @@
     cursor: pointer;
     transition: 2.5s ease-in-out;
     transform-style: preserve-3d;
+    margin: 1rem;
 }
 
 .card:hover {
@@ -45,4 +54,20 @@
 
 .card__face--back {
     transform: rotateY(0.5turn);
+}
+
+/* Add this CSS for the mobile version */
+.mobile {
+    margin: 2rem;
+}
+
+@media (max-width: 900px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: calc(50% - 2rem);
+    }
 }
