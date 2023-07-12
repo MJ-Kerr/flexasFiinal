@@ -62,12 +62,8 @@
 }
 
 @media (max-width: 900px) {
-    .card-container {
+    .scene {
         flex-direction: column;
         align-items: center;
-    }
-
-    .card {
-        width: calc(50% - 2rem);
     }
 }
